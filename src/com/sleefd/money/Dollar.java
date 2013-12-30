@@ -5,12 +5,13 @@ package com.sleefd.money;
  */
 public class Dollar extends Money {
 
-    public Dollar(int money) {
-        this.amount = money;
+    public Dollar(int money, String currency) {
+        super(money, currency);
     }
 
+
     public Money multiply(int multiplier) {
-        return new Dollar(amount * multiplier);
+        return new Dollar(amount * multiplier, "USD");
     }
 
 

@@ -24,8 +24,8 @@ public class TestFranc {
     @Test
     public void test_equity() {
         assertTrue(five.equals(five));
-        assertFalse(five.equals(new Dollar(5)));
-        assertFalse(five.equals(new Dollar(6)));
+        assertFalse(five.equals(new Dollar(5, "USD")));
+        assertFalse(five.equals(new Dollar(6, "USD")));
     }
 
     @Test

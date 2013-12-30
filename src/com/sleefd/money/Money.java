@@ -5,6 +5,12 @@ package com.sleefd.money;
  */
 public abstract class Money {
     protected int amount;
+    protected String currency;
+    public Money(int money, String currency) {
+        amount = money;
+        this.currency = currency;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -18,12 +24,12 @@ public abstract class Money {
     }
 
     public static Money dollar(int money) {
-        return new Dollar(money);
+        return new Dollar(money,"USD");
     }
 
      public abstract Money multiply(int money);
 
     public static Franc franc(int money) {
-        return new Franc(money);
+        return new Franc(money, "CHF");
     }
 }
