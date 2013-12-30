@@ -22,4 +22,8 @@ public abstract class Money {
     }
 
      public abstract Money multiply(int money);
+
+    public static Franc franc(int money) {
+        return new Franc(money);
+    }
 }

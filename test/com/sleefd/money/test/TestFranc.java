@@ -2,6 +2,7 @@ package com.sleefd.money.test;
 
 import com.sleefd.money.Dollar;
 import com.sleefd.money.Franc;
+import com.sleefd.money.Money;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,7 +18,7 @@ public class TestFranc {
 
     @Before
     public void setUp() throws Exception {
-        five = new Franc(5);
+        five = Money.franc(5);
     }
 
     @Test
@@ -29,7 +30,7 @@ public class TestFranc {
 
     @Test
     public void test_multiplication() {
-        assertEquals(new Franc(15), five.multiply(3));
+        assertEquals(Money.franc(15), five.multiply(3));
     }
 
 }

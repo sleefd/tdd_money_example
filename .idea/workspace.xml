@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c068da81-78b6-4c69-a24f-b72916c7ecfe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sleefd/money/Dollar.java" afterPath="$PROJECT_DIR$/src/com/sleefd/money/Dollar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sleefd/money/Franc.java" afterPath="$PROJECT_DIR$/src/com/sleefd/money/Franc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sleefd/money/Money.java" afterPath="$PROJECT_DIR$/src/com/sleefd/money/Money.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java" afterPath="$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java" afterPath="$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -71,10 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestDollar.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestDollar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="2.2258065" vertical-offset="65" max-vertical-offset="1118">
+            <state line="35" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1118">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestFranc.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestFranc.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="27" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
+            <state line="19" column="16" selection-start="435" selection-end="435" vertical-scroll-proportion="0.3325062" vertical-offset="308" max-vertical-offset="1066">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#TestFranc#0" expanded="false" />
@@ -97,7 +94,7 @@
       <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sleefd/money/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="4" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="806">
+            <state line="26" column="32" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="910">
               <folding />
             </state>
           </provider>
@@ -139,11 +136,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java" />
         <option value="$PROJECT_DIR$/src/com/sleefd/money/Franc.java" />
-        <option value="$PROJECT_DIR$/src/com/sleefd/money/Money.java" />
         <option value="$PROJECT_DIR$/src/com/sleefd/money/Dollar.java" />
         <option value="$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java" />
+        <option value="$PROJECT_DIR$/src/com/sleefd/money/Money.java" />
+        <option value="$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java" />
       </list>
     </option>
   </component>
@@ -566,7 +563,11 @@
       <created>1388402377843</created>
       <updated>1388402377843</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor multiply.&#10;add dollar() factory method.">
+      <created>1388405029359</created>
+      <updated>1388405029359</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -590,7 +591,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -614,7 +615,8 @@
     <MESSAGE value="add France class" />
     <MESSAGE value="add Money class , Dollar and France inherit from money class." />
     <MESSAGE value="add Money class , Dollar and France inherit from money class. Push amount and equals up." />
-    <option name="LAST_COMMIT_MESSAGE" value="add Money class , Dollar and France inherit from money class. Push amount and equals up." />
+    <MESSAGE value="refactor multiply.&#10;add dollar() factory method." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor multiply.&#10;add dollar() factory method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -628,6 +630,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.21594684" vertical-offset="0" max-vertical-offset="602">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1118">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -647,26 +658,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sleefd/money/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="806">
+        <state line="26" column="32" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="910">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
+        <state line="19" column="16" selection-start="435" selection-end="435" vertical-scroll-proportion="0.3325062" vertical-offset="308" max-vertical-offset="1066">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#TestFranc#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="2.2258065" vertical-offset="65" max-vertical-offset="1118">
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
