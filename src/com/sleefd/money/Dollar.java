@@ -9,7 +9,7 @@ public class Dollar extends Money {
         this.amount = money;
     }
 
-    public Dollar multiply(int multiplier) {
+    public Money multiply(int multiplier) {
         return new Dollar(amount * multiplier);
     }
 

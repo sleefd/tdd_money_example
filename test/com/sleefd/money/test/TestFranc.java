@@ -1,10 +1,12 @@
 package com.sleefd.money.test;
 
+import com.sleefd.money.Dollar;
 import com.sleefd.money.Franc;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -21,6 +23,8 @@ public class TestFranc {
     @Test
     public void test_equity() {
         assertTrue(five.equals(five));
+        assertFalse(five.equals(new Dollar(5)));
+        assertFalse(five.equals(new Dollar(6)));
     }
 
     @Test

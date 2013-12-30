@@ -3,7 +3,7 @@ package com.sleefd.money;
 /**
  * Created by _ashao2321919 on 13-12-30.
  */
-public class Money {
+public abstract class Money {
     protected int amount;
     @Override
     public boolean equals(Object o) {
@@ -16,4 +16,10 @@ public class Money {
 
         return true;
     }
+
+    public static Money dollar(int money) {
+        return new Dollar(money);
+    }
+
+     public abstract Money multiply(int money);
 }
