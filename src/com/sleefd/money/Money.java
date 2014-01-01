@@ -3,7 +3,7 @@ package com.sleefd.money;
 /**
  * Created by _ashao2321919 on 13-12-30.
  */
-public abstract class Money {
+public  class Money {
     protected int amount;
     protected String currency;
     public Money(int money, String currency) {
@@ -18,18 +18,20 @@ public abstract class Money {
 
         Money money = (Money) o;
 
-        if (amount != money.amount) return false;
-
+        if (amount != money.amount )  return false;
+        if (currency != money.currency ) return false;
         return true;
     }
 
     public static Money dollar(int money) {
-        return new Dollar(money,"USD");
+        return new Money(money,"USD");
     }
 
-     public abstract Money multiply(int money);
+    public Money multiply(int multiplier) {
+        return new Money(amount * multiplier , currency);
+    }
 
-    public static Franc franc(int money) {
-        return new Franc(money, "CHF");
+    public static Money franc(int money) {
+        return new Money(money, "CHF");
     }
 }

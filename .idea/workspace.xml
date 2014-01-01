@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c068da81-78b6-4c69-a24f-b72916c7ecfe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sleefd/money/Dollar.java" afterPath="$PROJECT_DIR$/src/com/sleefd/money/Dollar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sleefd/money/Franc.java" afterPath="$PROJECT_DIR$/src/com/sleefd/money/Franc.java" />
+      <change type="DELETED" beforePath="C:\tw_ns_env\MoneyReport\src\com\sleefd\money\Dollar.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\tw_ns_env\MoneyReport\src\com\sleefd\money\Franc.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\tw_ns_env\MoneyReport\test\com\sleefd\money\test\TestDollar.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\tw_ns_env\MoneyReport\test\com\sleefd\money\test\TestDollar.java" afterPath="$PROJECT_DIR$/test/com/sleefd/money/test/TestMoney.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sleefd/money/Money.java" afterPath="$PROJECT_DIR$/src/com/sleefd/money/Money.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java" afterPath="$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MoneyReport.iws" />
@@ -70,24 +71,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestDollar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java">
+      <file leaf-file-name="TestMoney.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestMoney.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1118">
+            <state line="25" column="44" selection-start="613" selection-end="613" vertical-scroll-proportion="0.83870965" vertical-offset="312" max-vertical-offset="1066">
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestFranc.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1066">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#TestFranc#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -96,25 +85,7 @@
       <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sleefd/money/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="27" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1066">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dollar.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sleefd/money/Dollar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="192" selection-end="192" vertical-scroll-proportion="0.22580644" vertical-offset="117" max-vertical-offset="754">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Franc.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sleefd/money/Franc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="702">
+            <state line="21" column="54" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1118">
               <folding />
             </state>
           </provider>
@@ -138,11 +109,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java" />
-        <option value="$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java" />
-        <option value="$PROJECT_DIR$/src/com/sleefd/money/Franc.java" />
-        <option value="$PROJECT_DIR$/src/com/sleefd/money/Money.java" />
         <option value="$PROJECT_DIR$/src/com/sleefd/money/Dollar.java" />
+        <option value="$PROJECT_DIR$/src/com/sleefd/money/Franc.java" />
+        <option value="$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java" />
+        <option value="$PROJECT_DIR$/src/com/sleefd/money/Money.java" />
+        <option value="$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java" />
+        <option value="$PROJECT_DIR$/test/com/sleefd/money/test/TestMoney.java" />
       </list>
     </option>
   </component>
@@ -176,6 +148,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MoneyReport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,17 +215,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MoneyReport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,13 +236,14 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.sleefd.money" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in MoneyReport">
+  <component name="RunManager" selected="JUnit.com.sleefd.money.test in MoneyReport">
     <configuration default="false" name="TestDollar.test_multiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoneyReport" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -293,12 +266,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestFranc.test_equity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestMoney.test_equity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoneyReport" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sleefd.money.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sleefd.money.test.TestFranc" />
+      <option name="MAIN_CLASS_NAME" value="com.sleefd.money.test.TestMoney" />
       <option name="METHOD_NAME" value="test_equity" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -315,12 +288,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestFranc.test_multiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestMoney.test_multiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoneyReport" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sleefd.money.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sleefd.money.test.TestFranc" />
+      <option name="MAIN_CLASS_NAME" value="com.sleefd.money.test.TestMoney" />
       <option name="METHOD_NAME" value="test_multiplication" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -415,6 +388,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -440,19 +426,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -510,17 +483,17 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestDollar.test_multiplication" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestFranc.test_equity" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestFranc.test_multiplication" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestMoney.test_equity" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestMoney.test_multiplication" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.com.sleefd.money.test in MoneyReport" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.All in MoneyReport" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in MoneyReport" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestFranc.test_equity" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.com.sleefd.money.test in MoneyReport" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestFranc.test_multiplication" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.com.sleefd.money.test in MoneyReport" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in MoneyReport" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestMoney.test_equity" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestMoney.test_multiplication" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.TestDollar.test_multiplication" />
       </list>
     </recent_temporary>
@@ -573,31 +546,35 @@
       <created>1388405337953</created>
       <updated>1388405337953</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add currency field.&#10;way to delete Franc and money..">
+      <created>1388406444250</created>
+      <updated>1388406444250</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="770" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -623,7 +600,8 @@
     <MESSAGE value="add Money class , Dollar and France inherit from money class. Push amount and equals up." />
     <MESSAGE value="refactor multiply.&#10;add dollar() factory method." />
     <MESSAGE value="add franc() factory method&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add franc() factory method&#10;&#10;" />
+    <MESSAGE value="add currency field.&#10;way to delete Franc and money.." />
+    <option name="LAST_COMMIT_MESSAGE" value="add currency field.&#10;way to delete Franc and money.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -633,35 +611,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0_07/jre/lib/plugin.jar!/sun/plugin/liveconnect/LiveConnect.class">
+    <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestMoney.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.21594684" vertical-offset="0" max-vertical-offset="602">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sleefd/money/Franc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="702">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestDollar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="1118">
+        <state line="15" column="13" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1118">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestFranc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1066">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#TestFranc#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -673,10 +627,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sleefd/money/Dollar.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_07/jre/lib/plugin.jar!/sun/plugin/liveconnect/LiveConnect.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="192" selection-end="192" vertical-scroll-proportion="0.22580644" vertical-offset="117" max-vertical-offset="754">
+        <state line="6" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.21594684" vertical-offset="0" max-vertical-offset="602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sleefd/money/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="54" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1118">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/sleefd/money/test/TestMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="44" selection-start="613" selection-end="613" vertical-scroll-proportion="0.83870965" vertical-offset="312" max-vertical-offset="1066">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
