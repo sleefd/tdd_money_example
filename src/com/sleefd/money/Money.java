@@ -3,7 +3,7 @@ package com.sleefd.money;
 /**
  * Created by _ashao2321919 on 13-12-30.
  */
-public  class Money {
+public  class Money implements Expression{
     protected int amount;
     protected String currency;
     public Money(int money, String currency) {
@@ -34,4 +34,9 @@ public  class Money {
     public static Money franc(int money) {
         return new Money(money, "CHF");
     }
+
+    public Expression plus(Money added) {
+        return new Sum(this, added);
+    }
+
 }
